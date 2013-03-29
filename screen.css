@@ -1,0 +1,223 @@
+/*  NEW screen */
+
+
+@media screen{
+
+body{
+font-size: 12px;
+background:orange;
+margin-top: -20px;
+/*height:100%;*/
+}
+
+
+header
+{
+  margin-top: 20px;
+  background:green;
+  height: 400px;
+}
+
+
+#header-nav{
+ background: green;
+ height: 50px;
+ color: white;
+}
+
+#header-nav ul {
+margin: 0 auto;
+height: 50px;
+width:50%; /* 672      .604.8*/
+color: white;
+background: orange;
+
+}
+
+#header-nav ul li{
+float: left;
+width:32.8%;  /* 38.2% 672/3 about 224 but 221 for sizing purposes*/
+padding-top:12.50px;
+margin-left: 0px;
+list-style:none;
+font-size:18px;
+text-align:center;
+
+}
+
+#header-nav li+li{
+
+/*padding-left:30px;
+
+*/
+}
+
+#header-nav ul li a{
+margin: 0 auto;
+}
+
+#header-contact h1{
+margin: 0 auto;
+width: 50%; /*    672    604.8*/
+font-size: 80px;
+
+margin-top: 20px;
+text-align:center;
+}
+
+
+#header-contact ul{
+margin: 0 auto;
+height: 100px;
+width:50%; /*604.8*/
+color: white;
+background: green;
+margin-top: 30px;
+font-size:30px;
+list-style:none;
+text-align:center;
+
+}
+
+#header-contact ul li{
+text-align:center;
+}
+
+
+#page-wrapper{
+margin: 0 auto;
+width: 75%; /*1344    1176*/
+background: orange;
+ height: 600px;
+ margin-top:-50px;
+}
+
+#content{
+margin: 0 auto;
+width: 100%; /*1000   about 1008 here*/   
+background: orange;
+ height: 350px;
+ margin-top: 50px;
+ 
+
+
+}
+
+
+#content p{
+float: right;
+font-size: 14px;
+/*width: 575px;  700*/
+width: 72.5%;
+margin-top: 40px;
+text-align: justify;
+
+margin-right: 15px;
+
+}
+
+.header-one h1{
+margin-top: 80px;
+/*margin-left: 50px;*/
+width: 30%px;
+float: left;
+font-size: 20px;
+}
+
+footer{
+margin: 0 auto;
+margin-top: 30px;
+height: 50px;
+width:66.6%; /*500*/
+color: white;
+background: orange;
+}
+
+
+footer ul{
+font-size:20px;
+color: white;
+list-style:none;
+
+
+}
+
+footer ul li{
+float: left;
+width:22%;
+
+color: white;
+  padding-left: 40px;
+  
+
+}
+ footer ul li a{
+ color: white;
+ text-decoration:none;
+
+ 
+ }
+ 
+.icon-github
+ {
+ background-image: url("github.jpg");
+ background-position: left center;
+    background-repeat: no-repeat;
+	 margin-left:78px;
+}
+
+.icon-twitter{
+ background-image: url("twitter.jpg");
+ background-position: left center;
+    background-repeat: no-repeat;
+}
+
+}
+
+/* http://www.tilde.io/  http://www.red-root.com/cv/  */
+
+
+@media screen and (max-width:1000px){
+
+
+#page-wrapper{
+background: blue;
+
+}
+#content p{
+overflow:auto;
+}
+
+}
+
+
+
+}
+
+
+@media screen and (max-width: 700px){
+
+#page-wrapper{
+background: yellow;
+}
+
+#content p{
+overflow:auto;
+display: block;
+
+}
+}
+
+
+@media screen and (max-width: 400px){
+
+
+#page-wrapper{
+background-color: green;
+}
+
+
+#content p{
+overflow:auto;
+}
+}
