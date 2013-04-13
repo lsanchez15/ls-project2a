@@ -1,51 +1,64 @@
-/*  NEW screen */
+  /*  NEW screen */
 
 
 
 
 
 html{
-background:red;  /* fixes white?? */
+background:#ffffcc;  /* fixes white?? */
+width:100%;
 }
 body{
-font-size: 12px;
-background:orange;
+font-size: 16px;
+background:#ffffcc;
 margin-top: -20px;
-
+font-family: 'Josefin Slab', serif;
+width:100%;
 }
 
 
-header
+#header
 {
   margin-top: 20px;
-  background:green;
+background-color:#009d91;
   /*height: 400px;*/
+  font-family: 'Josefin Slab', serif;
+border-bottom: 5px dotted #36d792;
+width:100%;
+
 }
 
 
 #header-nav{
- background: green;
+ /*background: #1e786c;*/
  height: 50px;
- color: white;
+ 
+   margin-top: 20px;
+ color:#36d792;
+ 
+
 }
 
 #header-nav ul {
 margin: 0 auto;
-height: 50px;
-width:50%; /* 672      .604.8*/
-color: white;
-background: orange;
+height: 70px;
+width:70%; /* 672      .604.8*/
+
+
+
 
 }
 
 #header-nav ul li{
 float: left;
-width:32.8%;  /* 38.2% 672/3 about 224 but 221 for sizing purposes*/
+width:20%;  /* 38.2% 672/3 about 224 but 221 for sizing purposes*/
 padding-top:12.50px;
-margin-left: 0px;
+margin-left:190px;
 list-style:none;
-font-size:18px;
+font-size:25px;
 text-align:center;
+font-family: 'Julius Sans One', sans-serif;
+   font-weight:bold;
 
 }
 
@@ -54,19 +67,30 @@ text-align:center;
 /*padding-left:30px;
 
 */
+
+margin-left:30px;
 }
 
 #header-nav ul li a{
 margin: 0 auto;
+text-decoration:none;
+color:#36D792  ;
+
+
+}
+
+#header-nav ul li a:hover{
+color:#ffffcc ;
 }
 
 #header-contact h1{
 margin: 0 auto;
 width: 50%; /*    672    604.8*/
-font-size: 80px;
-
+font-size: 100px;
+color: #b22b19; /*#E53119;  /* fe3f44   a67100*/
 margin-top: 20px;
 text-align:center;
+ font-weight:900;
 }
 
 
@@ -74,8 +98,8 @@ text-align:center;
 margin: 0 auto;
 height: 100px;
 width:50%; /*604.8*/
-color: white;
-background: green;
+color:#B22B19;
+
 margin-top: 30px;
 font-size:30px;
 list-style:none;
@@ -88,103 +112,215 @@ text-align:center;
 }
 
 #header-contact p{
-font-size:30px;
+font-size:40px;
 text-align:center;
 margin: 0 auto;
 margin-top: 30px;
-color: white;
+margin-bottom:20px;
+
 width:42%; /*604.8*/
+color:#b22b19;
 }
 
 #page-wrapper{
 margin: 0 auto;
 width: 75%; /*1344    1176*/
-background: red;
+background: #ffffcc;
+border-top: 5px dotted #36d792;
 
  /*margin-top:-50px;*/
+}
+
+
+#about{
+
+display:inline-block;
+
+/*height: 280px;*/
+padding-bottom:20px;
+
+}
+
+#skill{
+
+display:inline-block;
+margin-top: 30px;
+/*height: 180px;*/
+line-height: 20px;
 }
 
 .content{
 margin: 0 auto;
 width: 100%; /*1000   about 1008 here*/   
-background: white;
- height:330px;
+background: #ffffcc;
+ /*height:330px;*/
  /*margin-top: 50px;*/
- border-bottom: 3px solid black   ;
+ border-bottom: 3px solid #fe3f44;
+    font-family: 'Arimo', sans-serif;
  padding:  3px 3px 3px 3px;
+ font-weight:200;
+color: #015c65;  /*#00665e*/
 
 }
 
+.clearfix:after{
+clear:both;
+content:":)";
+display:block;
+font-size:0;
+height:0;
+visibility:hidden;
 
+}
+
+/*
 .content p{
+float: right;
+font-size: 14px;
+/*width: 575px;  700
+width: 72.5%;
+margin-top: 40px;
+text-align: justify;
+color:#fe3f44;
+margin-right: 15px;
+
+}
+
+*/
+
+
+.abouts{
 float: right;
 font-size: 14px;
 /*width: 575px;  700*/
 width: 72.5%;
 margin-top: 40px;
 text-align: justify;
-
+color:#015c65;
 margin-right: 15px;
+/*font-family: 'Arimo', sans-serif;*/
+line-height:16px;
+font-weight:200;
 
+
+}
+
+.header-one{
+float:left;
+width:25%;
 }
 
 .header-one h1{
 margin-top: 80px;
 /*margin-left: 50px;*/
-width: 25%;
-float: left;
-font-size: 20px;
+width: 80%;
+
+font-size: 25px;
+color:#fe3f44;
+font-family: 'Josefin Slab', serif;
+font-weight:700;
 }
 
 
- #skills{
+ .skills{
  width: 37.5%;
  float:right;
  margin-top: 40px;
  
  }
  
- #skills ul{
+ .skills ul{
  float:left;
  }
-#skills ul li{
-border-left: 5px solid #EEEEEE;
-font-size:14px;
+.skills ul li{
+border-left: 5px solid #ff5640;
+font-size:16px;
 display:block;
 padding: 7px 7px 7px 7px;
 margin-bottom:20px;
 }
 
-#workexp{
+
+#workexperience{
+display:inline-block;
+padding-bottom:13px;
+/*height: 450px;*/
+
+
+}
+
+.title{
+color:#fe3f44;
+font-weight:bold;
+font-size:16px;
+line-height:20px;
+
+}
+
+
+.dates{
+font-weight:bold;
+color: #015c65;
+font-size:14px;
+line-height: 16px;
+padding-bottom:10px;
+}
+
+.workexp{
 
 float:right;
 margin-right:15px;
 
 width: 72.5%;
 padding-bottom: 10px;
-padding-top:10px;
+padding-top:15px;
 }
 
-#workexp p{
+.workexp p{
 width:100%;
 float:left;
 margin-top:0px;
+ font-family: 'Arimo', sans-serif;
+ font-weight:700;
+ 
+}
+
+.date{
+font-weight:900;
+font-size:14px;
+padding-bottom:10px;
+
 
 }
 
-#workexp ul li{
+
+.workexp ul li{
 width: 95%;
 display:block;
+line-height:18px;
+font-size:16px;
+line-height:20px;
+padding-top:5px;
+/*border-left: 5px solid #ff5640;*/
+
 
 }
 
-#workexp ul{
+.workexp ul{
 display:block;
 width: 95%;
 
 }
 
-#education{
+
+#edu{
+
+display:inline-block;
+padding-bottom:20px;
+/*height: 280px;*/
+
+}
+.education{
 
 float:right;
 margin-right:15px;
@@ -197,6 +333,86 @@ padding-top:30px;
 }
 
 
+.school{
+ font-family: 'Arimo', sans-serif;
+ font-weight:700;
+ font-size:16px;
+ color:#FE3F44;
+ padding-bottom:2px;
+}
+
+
+#portheading{
+float:left;
+width:100%;
+color:#fe3f44;
+}
+
+#portheading h1{
+
+margin-top: 60px;
+/*margin-left: 50px;*/
+width: 100%;
+
+font-size: 25px;
+color:#fe3f44;
+
+font-family: 'Josefin Slab', serif;
+font-weight:700;
+}
+ #portheading p{
+ width: 80%;
+ margin: 0 auto;
+ text-align: justify;
+ font-size:14px;
+ padding-top: 20px;
+ 
+ }
+
+
+#imageOne{
+background-image: url(port1.JPG);
+background-repeat:no-repeat;
+width: 50%;
+display:block;
+height: 500px;
+background-size:100%;
+color:#36d792;
+font-family: 'Josefin Slab', serif;
+margin:0 auto;
+margin-top: 200px;
+padding-bottom:15px;
+}
+
+#imageTwo{
+background-image:url(port2.JPG);
+background-repeat:no-repeat;
+width: 50%;
+color:#36d792;
+font-family: 'Josefin Slab', serif;
+display:block;
+background-size:100%;
+height: 500px;
+background-size:100%;
+padding-bottom:15px;
+margin:0 auto;
+}
+
+#imageThree{
+background-image:url(port3.JPG);
+background-repeat:no-repeat;
+width: 50%;
+display:block;
+color:#36d792;
+font-family: 'Josefin Slab', serif;
+font-weight:900;
+background-size:100%;
+height: 500px;
+background-size:100%;
+padding-bottom:10px;
+margin:0 auto;
+}
+
 
 
 #footer{
@@ -204,17 +420,19 @@ margin: 0 auto;
 margin-top: 30px;
 /*height: 50px;*/
 width:66.6%; /*500*/
-color: white;
-background: orange;
+
+
 display:block;
 }
 
 
 #footer ul{
-font-size:20px;
-color: white;
+font-size:25px;
+color: #015c65;
 list-style:none;
 padding-bottom:50px;
+font-weight:bold;
+margin-left:150px;
 
 
 }
@@ -223,25 +441,30 @@ padding-bottom:50px;
 float: left;
 width:22%;
 
-color: white;
-  padding-left: 40px;
+color: #015c65;
+padding-left:40px;
+  
   
   
 
 }
 #footer ul li a{
- color: white;
+color: #015c65;
  text-decoration:none;
+ 
 
  
  }
- 
+  
+
+
+
 .icon-github
  {
  background-image: url("github.jpg");
  background-position: left center;
     background-repeat: no-repeat;
-	 margin-left:79px;
+	 /*margin-left:78px;*/
 }
 
 .icon-twitter{
@@ -250,11 +473,13 @@ color: white;
     background-repeat: no-repeat;
 }
 
+.icon-google{
+ background-image: url("googleplus.jpg");
+ background-position: left center;
+    background-repeat: no-repeat;
+}
 
-<<<<<<< HEAD
 
-=======
->>>>>>> Project2-small improvements-getting there
 
 
 
@@ -263,48 +488,93 @@ color: white;
 
 
 #page-wrapper{
-background: blue;
+
 }
 
-header{
-background: red;
+
+#header-nav ul li{
+margin-left:50px;
+width:90%;
 }
 
+#header-nav ul li+li{
+
+}
+
+#header-contact h1{
+
+}
 
 .header-one h1{
 width: 20%;
-background: red;
+
 
 }
 
 
 #content{
 margin-top:0px;
-height: 400px;
+/*height: 400px;*/
 }
 
 #content p{
-overflow:auto;
+/*overflow:auto;*/
 margin-top:40px;
 }
 
 
+#workexperience{
+display:block;
+/*height: 500px;*/
+
 }
 
 
-<<<<<<< HEAD
-@media screen and (min-width: 700px){
-=======
+#imageOne{
+margin-top:240px;
+height:280px;
+
+}
+
+
+#imageTwo{
+height:280px;
+}
+
+
+#imageThree{
+height:280px;
+}
+
+#footer{
+width:100%;
+}
+
+#footer ul{
+margin-left:80px;
+
+}
+
+}
+
+
 @media screen and (max-width:700px){
->>>>>>> Project2-small improvements-getting there
 
 #page-wrapper{
-background: yellow;
+
 }
 
 header{
-background: blue;
+
 }
+
+#header-nav ul{
+
+width:100%;
+}
+
+
+
 
 #content p{
 overflow:auto;
@@ -318,7 +588,7 @@ float: left;
 
 width: 80%;
 margin-top:40px;
-background: blue;
+
 
 }
 
@@ -335,23 +605,160 @@ padding-bottom: 30px;
 
 
 #page-wrapper{
-background-color: green;
+width:90%;
 }
-header{
-background: yellow;
+#header{
+width:100%;
+clear:both;
+margin-top:0px;
+
 }
 
+#header-nav{
+
+width:100%;
+
+}
+
+
+#header-nav ul{
+width:100%;
+
+}
+
+
+
+#header-nav ul li{
+width:30%;
+font-size:16px;
+margin-left:10px;
+font-weight:bold;
+
+}
+
+
+.header-one{
+width:100%;
+
+}
+.header-one h1{
+margin-top:10px;
+width:100%;
+}
 
 #content p{
 overflow:auto;
 margin-top: 0px;
 width: 100%;
 }
-<<<<<<< HEAD
+
+#header-contact h1{
+width: 30%;
+margin:0 auto;
+margin-left:25px;
+font-size: 70px;
+text-align:center;
+padding-bottom:10px;
+
 }
-=======
 
 #header-contact ul{
 margin-top: 5px;
-}}
->>>>>>> Project2-small improvements-getting there
+width:100%;
+font-size:25px;
+}
+
+
+#header-contact p{
+width: 70%;
+font-size:23px;
+margin-top: 20px;
+}
+
+.abouts{
+width:100%;
+margin: 0 auto;
+margin-top:20px;
+}
+
+#skill{
+margin-top: 20px;
+
+}
+
+.skills{
+margin-top:20px;
+width:48%;
+padding-left:3px;
+  }
+  
+  .workexp{
+  margin-right:0px;
+  width:100%;
+  padding-top:20px;
+  }
+  
+  
+  .education{
+   margin-right:0px;
+  width:100%;
+  padding-top:20px;
+  }
+  
+  
+  #portheading h1{
+  margin-top:20px;
+  
+  }
+  
+  #imageOne{
+  width:100%;
+  height:300px;
+  margin-top:330px;
+  }
+  
+   #imageTwo{
+  width:100%;
+  height:270px;
+  margin-top:15px;
+  }
+  
+   #imageThree{
+  width:100%;
+  height:270px;
+  margin-top:15px;
+  }
+  
+  
+#footer{
+width: 100%;
+}
+
+#footer ul{
+margin-left: 0px;
+font-size:16px;
+
+}
+
+#footer ul li{
+width:21%;
+padding-left:35px;
+}
+
+}
+
+/*
+https://kuler.adobe.com/#themeID/2369210
+
+jade wukong 2354311
+copy of yam 2332625
+factal orange  https://kuler.adobe.com/#themeID/2331083
+copy of landing https://kuler.adobe.com/#themeID/2324104
+
+
+#fe3f44
+
+#ffffcc
+#ff5640  orangy
+#36d792
+*/

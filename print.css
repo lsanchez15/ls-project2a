@@ -1,1 +1,93 @@
 /* print */
+
+
+#header-nav{
+display:none;
+}
+
+#header-contact h1{
+font-size: 16px;
+font-weight:bold;
+padding: 7px 7px 7px 0px;
+}
+
+#page-wrapper{
+margin-top:20px;
+}
+
+
+.header-one h1{
+font-size:16px;
+font-weight:bold;
+padding: 7px 7px 7px 0px;
+}
+
+
+.content{
+padding: 7px 7px 7px 0px; 
+}
+
+.skills ul{
+list-style:circle;
+list-style-type: circle;
+list-style-position: inside;
+padding-top: 5px;
+padding-bottom:5px;
+}
+
+.skills ul li{
+list-style:circle;
+list-style-type: circle;
+list-style-position: inside;
+ margin-left: 10px;
+}
+
+.workexp{
+padding-top:5px;
+padding-bottom:5px;
+}
+
+.workexp ul li{
+
+list-style:circle;
+list-style-type: circle;
+list-style-position: inside;
+ margin-left: 10px;
+}
+
+.education{
+padding-top:5px;
+padding-bottom:5px;
+}
+
+#imageOne{
+padding-top:5px;
+padding-bottom:5px;
+}
+
+
+#imageTwo{
+padding-top:5px;
+padding-bottom:5px;
+}
+
+#imageThree{
+padding-top:5px;
+padding-bottom:5px;
+background-image:url(port3.JPG);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+display:none;
+}
