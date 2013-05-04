@@ -29,6 +29,11 @@ width:100%;
 }
 
 
+.thm-dark, .thm-dark .p-author .profile .p-name, .thm-dark .cards-base p, .thm-dark .cards-base p a, .thm-dark .timeline-header .summary, .thm-dark .timeline-header a:link, .thm-dark .timeline-header a:visited, .thm-dark .byline, .thm-dark .p-author a.profile:hover .p-name, .thm-dark .p-author a.profile:focus .p-name {
+    color: #ffffff;
+}
+
+
 #header-nav{
  /*background: #1e786c;*/
  height: 50px;
@@ -451,11 +456,36 @@ padding-left:40px;
 #footer ul li a{
 color: #015c65;
  text-decoration:none;
- 
-
- 
  }
+ 
+ 
+ #twitter{
+ width:70%;
+ margin: 0 auto;
+ margin-top: 30px;
+ }
+ 
+#bird{
+
+width: 50%;
+
+
+} 
+ 
+ 
+ #tweet_heading{
+ width: 20%;
+font-size: 25px;
+color:#fe3f44;
+font-family: 'Josefin Slab', serif;
+font-weight:900;
+ }
+ 
+  .twtr-widget{
+  width: 300px;
+  float:right;
   
+  }
 
 
 
@@ -743,6 +773,11 @@ font-size:16px;
 #footer ul li{
 width:21%;
 padding-left:35px;
+}
+
+
+#bird {
+width: 70px;
 }
 
 }

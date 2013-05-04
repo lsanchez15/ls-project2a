@@ -62,7 +62,52 @@
    </p>
    </div>
    
-  </div>
+       <div id = "twitter">  
+	   <div id="tweet_heading"> <h1>Tweets</h1> </div>
+	   <div id="bird"> <img src="bird.png"></div>
+  <!--<a class="twitter-timeline" href="https://twitter.com/lilysanche2"  data-widget-id="326486733711613953">Tweets by @lilysanche2</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	-->
+  <script src="http://widgets.twimg.com/j/2/widget.js"></script> 
+   <script>
+    new TWTR.Widget({
+        version: 2,
+        type: 'profile',
+        rpp: 5,
+        interval: 5000,
+        width: 400,
+        height: 200,
+        theme: {
+            shell: {
+                background: '#990099',
+                color: 'white'
+            },
+            tweets: {
+                background: 'white',
+                color: 'black',
+                links: 'red'
+            }
+        },
+        features: {
+            scrollbar: false,
+            loop: false,
+            live: false,
+            hashtags: false,
+            timestamp: false,
+            avatars: false,
+            toptweets: false
+        }
+    }).render().setUser(' lilysanche2').start();
+</script>
+  
+  
+   </div>
+   
+   </div>
+
+   
+   
+  
 
 <div id="footer">
    <ul>
