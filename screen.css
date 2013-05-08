@@ -20,11 +20,12 @@ width:100%;
 #header
 {
   margin-top: 20px;
-background-color:#009d91;
+background-color:#a3a692;  
   /*height: 400px;*/
   font-family: 'Josefin Slab', serif;
 border-bottom: 5px dotted #36d792;
 width:100%;
+
 
 }
 
@@ -39,7 +40,8 @@ width:100%;
  height: 50px;
  
    margin-top: 20px;
- color:#36d792;
+ /*color:#36d792; */
+ color:#6FCC9F;
  
 
 }
@@ -70,7 +72,7 @@ font-family: 'Julius Sans One', sans-serif;
 #header-nav li+li{
 
 /*padding-left:30px;
-
+  72cca7
 */
 
 margin-left:30px;
@@ -79,7 +81,8 @@ margin-left:30px;
 #header-nav ul li a{
 margin: 0 auto;
 text-decoration:none;
-color:#36D792  ;
+color:#6FCC9F ;
+font-weight:bold;
 
 
 }
@@ -90,12 +93,13 @@ color:#ffffcc ;
 
 #header-contact h1{
 margin: 0 auto;
-width: 50%; /*    672    604.8*/
-font-size: 100px;
-color: #b22b19; /*#E53119;  /* fe3f44   a67100*/
+width: 50%; /*    672    604.8                       6fcc9f   */
+font-size: 90px;
+color: #D84D42; /*#E53119;  /* fe3f44   b22b19   d84d42  a67100*/
 margin-top: 20px;
 text-align:center;
- font-weight:900;
+font-weight:700;
+font-family: 'Bad Script', cursive;
 }
 
 
@@ -117,7 +121,7 @@ text-align:center;
 }
 
 #header-contact p{
-font-size:40px;
+font-size:30px;
 text-align:center;
 margin: 0 auto;
 margin-top: 30px;
@@ -196,14 +200,14 @@ margin-right: 15px;
 
 .abouts{
 float: right;
-font-size: 14px;
+font-size: 16px;
 /*width: 575px;  700*/
 width: 72.5%;
 margin-top: 40px;
 text-align: justify;
 color:#015c65;
 margin-right: 15px;
-/*font-family: 'Arimo', sans-serif;*/
+font-family: 'Arimo', sans-serif;
 line-height:16px;
 font-weight:200;
 
@@ -466,8 +470,8 @@ color: #015c65;
  }
  
 #bird{
-
-width: 50%;
+float:left;
+width: 30%;
 
 
 } 
@@ -478,12 +482,17 @@ width: 50%;
 font-size: 25px;
 color:#fe3f44;
 font-family: 'Josefin Slab', serif;
-font-weight:900;
+font-weight:700;
+margin-bottom: 15px;
+ }
+ 
+ #tweet_heading h1{
+ font-weight:700;
  }
  
   .twtr-widget{
   width: 300px;
-  float:right;
+  float:left;
   
   }
 
@@ -782,6 +791,9 @@ width: 70px;
 
 }
 
+
+//a3a692   D84D42 MISS VAN  A89686
+//D94F4B
 /*
 https://kuler.adobe.com/#themeID/2369210
 
